@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="meta.title">ASD &amp; CO — Europäische Lebensmitteltechnik</title>
+<meta name="description" data-i18n-attr="content" data-i18n="meta.description"
+      content="Auswahl, Beschaffung und Lieferorganisation von Lebensmittelausrüstung und Ersatzteilen aus Deutschland und Europa. ASD &amp; CO, Berlin.">
+<link rel="stylesheet" href="assets/css/style.css?v=13">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%230f3b5c'/><text x='16' y='22' font-family='Arial' font-size='15' font-weight='bold' fill='white' text-anchor='middle'>A</text></svg>">
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Zum Inhalt springen</a>
+
+<!-- ====================== Kopfzeile ====================== -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="brand" href="index.html" aria-label="ASD &amp; CO">
+      <span class="brand__mark" aria-hidden="true"></span>
+      ASD &amp; CO
+    </a>
+
+    <nav class="nav" id="nav" data-i18n-aria="a11y.nav" aria-label="Hauptnavigation">
+      <ul class="nav__list">
+        <li><a class="nav__link" href="#hero"       data-i18n="nav.home">Startseite</a></li>
+        <li><a class="nav__link" href="#about"      data-i18n="nav.about">Über uns</a></li>
+        <li><a class="nav__link" href="#why"        data-i18n="nav.why">Warum ASD</a></li>
+        <li><a class="nav__link" href="#industries" data-i18n="nav.industries">Branchen</a></li>
+        <li><a class="nav__link" href="#supply"     data-i18n="nav.supply">Produkte</a></li>
+        <li><a class="nav__link" href="#contact"    data-i18n="nav.contact">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__actions">
+      <div class="lang" role="group" data-i18n-aria="a11y.lang" aria-label="Sprache wählen">
+        <button class="lang__btn" type="button" data-lang="de" aria-pressed="true">DE</button>
+        <button class="lang__btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn--primary btn--sm header__cta" href="#contact" data-i18n="cta.offer">Angebot erhalten</a>
+    </div>
+    <button class="burger" type="button" id="burger" aria-expanded="false" aria-controls="nav"
+            data-i18n-aria="a11y.menu" aria-label="Menü öffnen">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ====================== 1 — Hero ====================== -->
+<section class="hero" id="hero">
+  <img class="hero__bg" src="assets/images/hero-production.jpg" alt="" aria-hidden="true" width="2000" height="1333" fetchpriority="high">
+  <div class="hero__scrim" aria-hidden="true"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__title" data-i18n="hero.title">
+        Europäische Lebensmitteltechnik für den stabilen Betrieb Ihrer Produktion
+      </h1>
+      <p class="hero__sub" data-i18n="hero.sub">
+        Auswahl, Beschaffung und Lieferorganisation von Ausrüstung und Ersatzteilen
+        aus Deutschland und anderen Ländern Europas.
+      </p>
+      <p class="hero__location">
+        <span aria-hidden="true">🇩🇪</span>
+        <span data-i18n="hero.location">Berlin · Deutschland</span>
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact" data-i18n="cta.offer">Angebot erhalten</a>
+      </div>
+    </div>
+
+    <ul class="hero__cards" style="list-style:none;padding:0;margin:0">
+      <li class="hero-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg>
+        <span data-i18n="hero.card1">Unternehmen in Deutschland</span>
+      </li>
+      <li class="hero-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18"/></svg>
+        <span data-i18n="hero.card2">Europäische Hersteller</span>
+      </li>
+      <li class="hero-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 8h18M3 16h18"/></svg>
+        <span data-i18n="hero.card3">Neue und gebrauchte Ausrüstung</span>
+      </li>
+      <li class="hero-card">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 7h13v10H1zM14 10h4l3 3v4h-7z"/><circle cx="5.5" cy="18.5" r="1.8"/><circle cx="17.5" cy="18.5" r="1.8"/></svg>
+        <span data-i18n="hero.card4">Lieferung nach Zentralasien</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ====================== 2 — Wer wir sind ====================== -->
+<section class="section" id="about">
+  <div class="container split reveal">
+    <div class="split__media">
+      <img src="assets/images/about-berlin.jpg" loading="lazy" width="1600" height="1066"
+           data-i18n-alt="about.alt" alt="Moderne Bürogebäude in Berlin">
+    </div>
+    <div>
+      <p class="eyebrow" data-i18n="about.eyebrow">Wer wir sind</p>
+      <h2 class="about__name">ASD &amp; CO</h2>
+      <p class="about__role" data-i18n="about.role">
+        Ihr Vertreter in Europa für Lebensmittelausrüstung und Technologie
+      </p>
+      <p class="about__text" data-i18n="about.text1">
+        ASD &amp; CO unterstützt Unternehmen in Zentralasien dabei, Lebensmittelausrüstung
+        und Ersatzteile auf dem europäischen Markt zu finden und zu beschaffen.
+      </p>
+      <p class="about__text" data-i18n="about.text2">
+        Wir begleiten das Projekt von der ersten Anfrage bis zur Organisation der Lieferung —
+        und bleiben auch nach Abschluss des Geschäfts Partner unserer Kunden.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 3 — Warum Unternehmen uns vertrauen ====================== -->
+<section class="section section--muted" id="why">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center" data-i18n="why.eyebrow">Unser Ansatz</p>
+      <h2 data-i18n="why.title">Warum Unternehmen ASD &amp; CO vertrauen</h2>
+    </div>
+
+    <div class="cards reveal stagger">
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18a15 15 0 0 1 0-18"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c1t">Zugang zum europäischen Markt</h3>
+        <p class="card__text" data-i18n="why.c1d">Wir suchen Ausrüstung in ganz Europa.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 15a3 3 0 1 0 0-6a3 3 0 0 0 0 6z"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3a1.6 1.6 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 9 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8a1.6 1.6 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 4.6 9a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H9a1.6 1.6 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5a1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V9a1.6 1.6 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c2t">Mehrere Optionen</h3>
+        <p class="card__text" data-i18n="why.c2d">Neu. Gebraucht. Verschiedene Hersteller.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M11 17H6a3 3 0 0 1 0-6h5M13 7h5a3 3 0 0 1 0 6h-5M8 12h8"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c3t">Wir vertreten Ihre Interessen</h3>
+        <p class="card__text" data-i18n="why.c3d">Wir wählen Ausrüstung nach Ihrer Aufgabe aus — nicht nach einer bestimmten Marke.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c4t">Wir sparen Ihre Zeit</h3>
+        <p class="card__text" data-i18n="why.c4d">Wir übernehmen Suche und Verhandlungen.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3l-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2l4-4"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c5t">Wir senken Risiken</h3>
+        <p class="card__text" data-i18n="why.c5d">Wir helfen, teure Fehler beim Kauf von Ausrüstung zu vermeiden.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0 5 5l-9.4 9.4a2.8 2.8 0 0 1-4-4z"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c6t">Ersatzteile</h3>
+        <p class="card__text" data-i18n="why.c6d">Identifikation nach Artikelnummer, Foto oder Dokumentation.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 7h13v10H1zM14 10h4l3 3v4h-7z"/><circle cx="5.5" cy="18.5" r="1.8"/><circle cx="17.5" cy="18.5" r="1.8"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c7t">Organisation der Lieferung</h3>
+        <p class="card__text" data-i18n="why.c7d">Gemeinsam mit unseren Logistikpartnern.</p>
+      </article>
+
+      <article class="card">
+        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6.5 9a3.5 3.5 0 1 0 0 6c2.5 0 3.5-3 5.5-3s3 3 5.5 3a3.5 3.5 0 1 0 0-6c-2.5 0-3.5 3-5.5 3s-3-3-5.5-3z"/></svg></div>
+        <h3 class="card__title" data-i18n="why.c8t">Langfristige Zusammenarbeit</h3>
+        <p class="card__text" data-i18n="why.c8d">Wir unterstützen Sie auch nach der Lieferung.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 4 — Branchen ====================== -->
+<section class="section" id="industries">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center" data-i18n="ind.eyebrow">Branchen</p>
+      <h2 data-i18n="ind.title">Unsere Branchen</h2>
+    </div>
+
+    <div class="tiles reveal stagger">
+      <article class="tile">
+        <img src="assets/images/industry-dairy.jpg" loading="lazy" width="1200" height="800"
+             data-i18n-alt="ind.dairyAlt" alt="Milchprodukte">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 2h8l-1 4v2l2 3v11H7V11l2-3V6z"/></svg>
+          <span data-i18n="ind.dairy">Molkereiindustrie</span>
+        </h3>
+      </article>
+
+      <article class="tile">
+        <img src="assets/images/industry-cheese.jpg" loading="lazy" width="1200" height="840"
+             data-i18n-alt="ind.cheeseAlt" alt="Käselaibe">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12l9-6l9 6v7H3z"/><circle cx="8" cy="16" r="1"/><circle cx="14" cy="15" r="1.2"/></svg>
+          <span data-i18n="ind.cheese">Käseherstellung</span>
+        </h3>
+      </article>
+
+      <article class="tile">
+        <img src="assets/images/industry-beverages.jpg" loading="lazy" width="1200" height="800"
+             data-i18n-alt="ind.bevAlt" alt="Getränkeherstellung">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M8 3h8l-1 18H9zM8 8h8"/></svg>
+          <span data-i18n="ind.bev">Getränkeproduktion</span>
+        </h3>
+      </article>
+
+      <article class="tile">
+        <img src="assets/images/industry-meat.jpg" loading="lazy" width="1400" height="1050"
+             data-i18n-alt="ind.meatAlt" alt="Fleischverarbeitung">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 14a8 8 0 1 1 16 0a8 8 0 0 1-16 0z"/><circle cx="12" cy="14" r="3"/></svg>
+          <span data-i18n="ind.meat">Fleischverarbeitung</span>
+        </h3>
+      </article>
+
+      <article class="tile">
+        <img src="assets/images/industry-packaging.jpg" loading="lazy" width="1200" height="800"
+             data-i18n-alt="ind.packAlt" alt="Abfüllung und Verpackung">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8l9-5l9 5v8l-9 5l-9-5z"/><path d="M3 8l9 5l9-5M12 13v8"/></svg>
+          <span data-i18n="ind.pack">Abfüllung und Verpackung</span>
+        </h3>
+      </article>
+
+      <article class="tile">
+        <img src="assets/images/industry-kitchen.jpg" loading="lazy" width="1400" height="1050"
+             data-i18n-alt="ind.kitchenAlt" alt="Professionelle Küche">
+        <div class="tile__scrim"></div>
+        <h3 class="tile__label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 2v8M9 2v8M7.5 10v12M16 2c-2 2-2 6 0 8v12"/></svg>
+          <span data-i18n="ind.kitchen">Professionelle Küchen</span>
+        </h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 5 — Was wir liefern ====================== -->
+<section class="section section--muted" id="supply">
+  <div class="container split reveal">
+    <div class="split__media">
+      <img src="assets/images/equipment.jpg" loading="lazy" width="1400" height="933"
+           data-i18n-alt="supply.alt" alt="Pumpe, Ventil und Rohrleitungen aus Edelstahl">
+    </div>
+    <div>
+      <p class="eyebrow" data-i18n="supply.eyebrow">Produkte</p>
+      <h2 data-i18n="supply.title">Unsere Produkte</h2>
+      <ul class="supply__list reveal stagger">
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span data-i18n="supply.i1">Technologische Linien</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 14a8 8 0 0 1 16 0v6H4z"/><path d="M8 8V4M16 8V4"/></svg><span data-i18n="supply.i2">Pasteurisatoren</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg><span data-i18n="supply.i3">Separatoren</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4v16M9 4v16M13 4v16M17 4v16"/></svg><span data-i18n="supply.i4">Wärmetauscher</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="10" cy="12" r="6"/><path d="M16 12h5M10 6V3"/></svg><span data-i18n="supply.i5">Pumpen</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v6M8 9h8v5H8zM3 20h18"/></svg><span data-i18n="supply.i6">Ventile</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="6" y="4" width="12" height="16" rx="4"/><path d="M6 10h12"/></svg><span data-i18n="supply.i7">Tanks und Behälter</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8l9-5l9 5v8l-9 5l-9-5z"/><path d="M3 8l9 5l9-5"/></svg><span data-i18n="supply.i8">Verpackungstechnik</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 2v8M9 2v8M7.5 10v12M16 2c-2 2-2 6 0 8v12"/></svg><span data-i18n="supply.i9">Professionelle Küchen</span></li>
+        <li class="supply__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0 5 5l-9.4 9.4a2.8 2.8 0 0 1-4-4z"/></svg><span data-i18n="supply.i10">Ersatzteile</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 6 — Europäische Qualität ====================== -->
+<section class="section section--deep" id="quality">
+  <div class="container split split--reverse reveal">
+    <div class="split__media">
+      <img src="assets/images/quality.jpg" loading="lazy" width="1400" height="953"
+           data-i18n-alt="quality.alt" alt="Plattenwärmetauscher aus Edelstahl">
+    </div>
+    <div>
+      <p class="eyebrow" data-i18n="quality.eyebrow">Europäische Qualität</p>
+      <h2 data-i18n="quality.title">Warum europäische Ausrüstung</h2>
+      <ul class="checks reveal stagger">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="quality.p1">Lange Lebensdauer</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="quality.p2">Stabiler Betrieb der Produktion</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="quality.p3">Originalersatzteile</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg><span data-i18n="quality.p4">Zuverlässigkeit im langfristigen Betrieb</span></li>
+      </ul>
+      <p class="pullquote" data-i18n="quality.note">
+        Wir helfen bei der Auswahl von Ausrüstung nicht nur nach dem Kaufpreis,
+        sondern nach ihrer Wirtschaftlichkeit über die gesamte Nutzungsdauer.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ====================== 7 — Wie wir arbeiten ====================== -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-head section-head--center reveal">
+      <p class="eyebrow" style="justify-content:center" data-i18n="proc.eyebrow">Ablauf</p>
+      <h2 data-i18n="proc.title">Wie wir arbeiten</h2>
+    </div>
+
+    <ol class="timeline reveal" style="list-style:none;padding:0">
+      <li class="step"><div class="step__dot">1</div><div><h3 class="step__title" data-i18n="proc.s1t">Anfrage</h3><p class="step__text" data-i18n="proc.s1d">Sie beschreiben Ihre Aufgabe.</p></div></li>
+      <li class="step"><div class="step__dot">2</div><div><h3 class="step__title" data-i18n="proc.s2t">Auswahl</h3><p class="step__text" data-i18n="proc.s2d">Wir suchen passende Lösungen in Europa.</p></div></li>
+      <li class="step"><div class="step__dot">3</div><div><h3 class="step__title" data-i18n="proc.s3t">Angebote</h3><p class="step__text" data-i18n="proc.s3d">Sie erhalten mehrere Varianten zum Vergleich.</p></div></li>
+      <li class="step"><div class="step__dot">4</div><div><h3 class="step__title" data-i18n="proc.s4t">Abstimmung</h3><p class="step__text" data-i18n="proc.s4d">Wir klären Technik und Konditionen.</p></div></li>
+      <li class="step"><div class="step__dot">5</div><div><h3 class="step__title" data-i18n="proc.s5t">Lieferorganisation</h3><p class="step__text" data-i18n="proc.s5d">Wir koordinieren Logistik und Dokumente.</p></div></li>
+      <li class="step"><div class="step__dot">6</div><div><h3 class="step__title" data-i18n="proc.s6t">Betreuung</h3><p class="step__text" data-i18n="proc.s6d">Wir bleiben nach der Lieferung erreichbar.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ====================== 8 — Kontakt ====================== -->
+<section class="contact section" id="contact">
+  <img class="contact__bg" src="assets/images/contact-logistics.jpg" alt="" aria-hidden="true" loading="lazy" width="1400" height="1867">
+  <div class="contact__scrim" aria-hidden="true"></div>
+
+  <div class="container contact__inner">
+    <div class="contact__grid">
+      <div>
+        <p class="eyebrow" data-i18n="contact.eyebrow">Kontakt</p>
+        <h2 data-i18n="contact.title">Erzählen Sie uns von Ihrer Aufgabe</h2>
+        <p class="lead" data-i18n="contact.lead">
+          Beschreiben Sie kurz, welche Ausrüstung oder welches Ersatzteil Sie benötigen.
+          Wir melden uns mit konkreten Vorschlägen zurück.
+        </p>
+
+        <ul class="contact__facts reveal stagger">
+          <li class="contact__fact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <div class="contact__fact-label" data-i18n="contact.addrLabel">Adresse</div>
+              <div class="contact__fact-value">ASD &amp; CO<br>Zimmerstr. 26/27<br>10969 Berlin, <span data-i18n="contact.country">Deutschland</span></div>
+            </div>
+          </li>
+          <li class="contact__fact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+            <div>
+              <div class="contact__fact-label" data-i18n="contact.mailLabel">E-Mail</div>
+              <div class="contact__fact-value"><a href="mailto:info@asd-co.de">info@asd-co.de</a></div>
+            </div>
+          </li>
+          <li class="contact__fact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.4 1.9.6 2.9.8a2 2 0 0 1 1.7 2z"/></svg>
+            <div>
+              <div class="contact__fact-label" data-i18n="contact.phoneLabel">Telefon</div>
+              <div class="contact__fact-value"><a href="tel:+493050956276">030-509-562-76</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Formular -->
+      <div class="form" id="form-wrap">
+        <form class="form__body" id="contact-form" novalidate>
+          <div class="form__grid">
+            <div class="field">
+              <!-- Das Sternchen steht bewusst AUSSERHALB des übersetzten Knotens:
+                   data-i18n setzt textContent und würde es sonst mit entfernen. -->
+              <label class="field__label" for="f-name"><span data-i18n="form.name">Name</span> <span class="field__req">*</span></label>
+              <input type="text" id="f-name" name="name" autocomplete="name" required>
+              <span class="field__error" data-i18n="form.errRequired">Bitte füllen Sie dieses Feld aus.</span>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-company" data-i18n="form.company">Unternehmen</label>
+              <input type="text" id="f-company" name="company" autocomplete="organization">
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-country"><span data-i18n="form.country">Land</span> <span class="field__req">*</span></label>
+              <input type="text" id="f-country" name="country" autocomplete="country-name" required>
+              <span class="field__error" data-i18n="form.errRequired">Bitte füllen Sie dieses Feld aus.</span>
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="f-email"><span data-i18n="form.email">E-Mail</span> <span class="field__req">*</span></label>
+              <input type="email" id="f-email" name="email" autocomplete="email" required>
+              <span class="field__error" data-i18n="form.errEmail">Bitte geben Sie eine gültige E-Mail-Adresse ein.</span>
+            </div>
+
+            <div class="field field--full">
+              <label class="field__label" for="f-phone" data-i18n="form.phone">Telefon</label>
+              <input type="tel" id="f-phone" name="phone" autocomplete="tel">
+            </div>
+
+            <div class="field field--full">
+              <label class="field__label" for="f-message"><span data-i18n="form.message">Beschreibung der Aufgabe</span> <span class="field__req">*</span></label>
+              <textarea id="f-message" name="message" rows="5" required
+                        data-i18n-placeholder="form.messagePh"
+                        placeholder="Welche Ausrüstung oder welches Ersatzteil benötigen Sie?"></textarea>
+              <span class="field__error" data-i18n="form.errRequired">Bitte füllen Sie dieses Feld aus.</span>
+            </div>
+
+            <div class="field field--full">
+              <div class="consent">
+                <input type="checkbox" id="f-consent" name="consent" required>
+                <label for="f-consent"><span data-i18n-html="form.consent">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der
+                  Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu.</span> <span class="field__req">*</span></label>
+              </div>
+              <span class="field__error" data-i18n="form.errConsent">Bitte stimmen Sie der Datenverarbeitung zu.</span>
+            </div>
+
+            <div class="field field--full">
+              <button class="btn btn--primary btn--block" type="submit" data-i18n="cta.offer">Angebot erhalten</button>
+            </div>
+          </div>
+          <p class="form__note" data-i18n="form.note">Felder mit * sind Pflichtfelder.</p>
+          <p class="form__sendError" id="form-send-error" role="alert" hidden data-i18n-html="form.sendError">
+            Die Anfrage konnte nicht gesendet werden. Bitte versuchen Sie es erneut oder schreiben Sie uns direkt an <a href="mailto:info@asd-co.de">info@asd-co.de</a>.
+          </p>
+        </form>
+
+        <div class="form__success" role="status" aria-live="polite">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3l5-6"/></svg>
+          <h3 data-i18n="form.successTitle">Vielen Dank für Ihre Anfrage</h3>
+          <p data-i18n="form.successText">Wir haben Ihre Angaben erhalten und melden uns in Kürze bei Ihnen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ====================== Fußzeile ====================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand-col">
+        <a class="brand" href="index.html">
+          <span class="brand__mark" aria-hidden="true"></span>
+          ASD &amp; CO
+        </a>
+        <p class="footer__about" data-i18n="footer.about">
+          Ihr Vertreter in Europa für Lebensmittelausrüstung, Technologie und Ersatzteile.
+          Auswahl, Beschaffung, Lieferorganisation und Betreuung.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="footer.navTitle">Navigation</h2>
+        <ul class="footer__list">
+          <li><a href="index.html#about"      data-i18n="nav.about">Über uns</a></li>
+          <li><a href="index.html#why"        data-i18n="nav.why">Warum ASD</a></li>
+          <li><a href="index.html#industries" data-i18n="nav.industries">Branchen</a></li>
+          <li><a href="index.html#supply"     data-i18n="nav.supply">Produkte</a></li>
+          <li><a href="index.html#contact"    data-i18n="nav.contact">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="footer__title" data-i18n="footer.legalTitle">Rechtliches</h2>
+        <ul class="footer__list">
+          <li><a href="impressum.html"   data-i18n="footer.imprint">Impressum</a></li>
+          <li><a href="datenschutz.html" data-i18n="footer.privacy">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© <span id="year">2026</span> ASD &amp; CO. <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></p>
+      <div class="lang" role="group" data-i18n-aria="a11y.lang" aria-label="Sprache wählen">
+        <button class="lang__btn" type="button" data-lang="de" aria-pressed="true">DE</button>
+        <button class="lang__btn" type="button" data-lang="ru" aria-pressed="false">RU</button>
+        <button class="lang__btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/i18n.js?v=13"></script>
+<script src="assets/js/main.js?v=13"></script>
+</body>
+</html>
