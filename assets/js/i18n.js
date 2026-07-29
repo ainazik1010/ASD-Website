@@ -1,5 +1,5 @@
 /* ==========================================================================
-   ASD & CO — Übersetzungen
+   ASD & CO GmbH — Übersetzungen
    Drei Wörterbücher mit identischen Schlüsseln. Fehlt ein Schlüssel in einer
    Sprache, fällt main.js auf Deutsch zurück und meldet es in der Konsole.
    ========================================================================== */
@@ -7,8 +7,8 @@ window.I18N = {
 
   /* ---------------------------------------------------------------- Deutsch */
   de: {
-    "meta.title": "ASD & CO — Europäische Lebensmitteltechnik",
-    "meta.description": "Auswahl, Beschaffung und Lieferorganisation von Lebensmittelausrüstung und Ersatzteilen aus Deutschland und Europa. ASD & CO, Berlin.",
+    "meta.title": "ASD & CO GmbH — Europäische Lebensmitteltechnik",
+    "meta.description": "Auswahl, Beschaffung und Lieferorganisation von Lebensmittelausrüstung und Ersatzteilen aus Deutschland und Europa. ASD & CO GmbH, Berlin.",
 
     "a11y.skip": "Zum Inhalt springen",
     "a11y.nav": "Hauptnavigation",
@@ -34,12 +34,12 @@ window.I18N = {
 
     "about.eyebrow": "Wer wir sind",
     "about.role": "Ihr Vertreter in Europa für Lebensmittelausrüstung und Technologie",
-    "about.text1": "ASD & CO unterstützt Unternehmen in Zentralasien dabei, Lebensmittelausrüstung und Ersatzteile auf dem europäischen Markt zu finden und zu beschaffen.",
+    "about.text1": "ASD & CO GmbH unterstützt Unternehmen in Zentralasien dabei, Lebensmittelausrüstung und Ersatzteile auf dem europäischen Markt zu finden und zu beschaffen.",
     "about.text2": "Wir begleiten das Projekt von der ersten Anfrage bis zur Organisation der Lieferung — und bleiben auch nach Abschluss des Geschäfts Partner unserer Kunden.",
     "about.alt": "Hochhäuser am Potsdamer Platz in Berlin",
 
     "why.eyebrow": "Unser Ansatz",
-    "why.title": "Warum Unternehmen ASD & CO vertrauen",
+    "why.title": "Warum Unternehmen ASD & CO GmbH vertrauen",
     "why.c1t": "Zugang zum europäischen Markt",
     "why.c1d": "Wir suchen Ausrüstung in ganz Europa.",
     "why.c2t": "Mehrere Optionen",
@@ -144,7 +144,7 @@ window.I18N = {
 
     /* --- Rechtsseiten --- */
     "legal.backHome": "Zurück zur Startseite",
-    "imp.metaTitle": "Impressum — ASD & CO",
+    "imp.metaTitle": "Impressum — ASD & CO GmbH",
     "imp.title": "Impressum",
     "imp.lead": "Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).",
     "imp.h1": "Diensteanbieter",
@@ -168,7 +168,7 @@ window.I18N = {
     "imp.h11": "Urheberrecht",
     "imp.h11t": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als solche gekennzeichnet.",
 
-    "prv.metaTitle": "Datenschutzerklärung — ASD & CO",
+    "prv.metaTitle": "Datenschutzerklärung — ASD & CO GmbH",
     "prv.title": "Datenschutzerklärung",
     "prv.lead": "Informationen zur Verarbeitung personenbezogener Daten nach Art. 13 DSGVO.",
     "prv.hosting": "Hosting-Anbieter ist IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Deutschland. Mit IONOS besteht ein Vertrag zur Auftragsverarbeitung nach Art. 28 DSGVO.",
@@ -207,8 +207,8 @@ window.I18N = {
 
   /* ---------------------------------------------------------------- Русский */
   ru: {
-    "meta.title": "ASD & CO — европейское оборудование для пищевых производств",
-    "meta.description": "Подбор, закупка и организация поставки пищевого оборудования и запасных частей из Германии и стран Европы. ASD & CO, Берлин.",
+    "meta.title": "ASD & CO GmbH — европейское оборудование для пищевых производств",
+    "meta.description": "Подбор, закупка и организация поставки пищевого оборудования и запасных частей из Германии и стран Европы. ASD & CO GmbH, Берлин.",
 
     "a11y.skip": "Перейти к содержанию",
     "a11y.nav": "Основная навигация",
@@ -234,12 +234,12 @@ window.I18N = {
 
     "about.eyebrow": "О компании",
     "about.role": "Ваш представитель в Европе по вопросам пищевого оборудования и технологий",
-    "about.text1": "ASD & CO помогает предприятиям Центральной Азии находить и приобретать пищевое оборудование и запасные части на европейском рынке.",
+    "about.text1": "ASD & CO GmbH помогает предприятиям Центральной Азии находить и приобретать пищевое оборудование и запасные части на европейском рынке.",
     "about.text2": "Мы сопровождаем проект от первого запроса до организации поставки и остаёмся партнёром клиента после завершения сделки.",
     "about.alt": "Небоскрёбы на Потсдамской площади в Берлине",
 
     "why.eyebrow": "Наш подход",
-    "why.title": "Почему предприятия доверяют ASD & CO",
+    "why.title": "Почему предприятия доверяют ASD & CO GmbH",
     "why.c1t": "Доступ к европейскому рынку",
     "why.c1d": "Ищем оборудование по всей Европе.",
     "why.c2t": "Несколько вариантов",
@@ -343,7 +343,7 @@ window.I18N = {
     "footer.rights": "Все права защищены.",
 
     "legal.backHome": "Вернуться на главную",
-    "imp.metaTitle": "Выходные данные — ASD & CO",
+    "imp.metaTitle": "Выходные данные — ASD & CO GmbH",
     "imp.title": "Выходные данные",
     "imp.lead": "Сведения согласно § 5 Закона Германии о цифровых услугах (DDG).",
     "imp.h1": "Поставщик услуг",
@@ -367,7 +367,7 @@ window.I18N = {
     "imp.h11": "Авторское право",
     "imp.h11t": "Материалы, созданные владельцами сайта, защищены авторским правом Германии. Материалы третьих лиц отмечены соответствующим образом.",
 
-    "prv.metaTitle": "Политика конфиденциальности — ASD & CO",
+    "prv.metaTitle": "Политика конфиденциальности — ASD & CO GmbH",
     "prv.title": "Политика конфиденциальности",
     "prv.lead": "Информация об обработке персональных данных согласно ст. 13 GDPR.",
     "prv.hosting": "Хостинг-провайдер — IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Германия. С IONOS заключён договор об обработке данных по поручению согласно ст. 28 GDPR.",
@@ -406,8 +406,8 @@ window.I18N = {
 
   /* ---------------------------------------------------------------- English */
   en: {
-    "meta.title": "ASD & CO — European Food Processing Equipment",
-    "meta.description": "Sourcing, procurement and delivery coordination of food processing equipment and spare parts from Germany and Europe. ASD & CO, Berlin.",
+    "meta.title": "ASD & CO GmbH — European Food Processing Equipment",
+    "meta.description": "Sourcing, procurement and delivery coordination of food processing equipment and spare parts from Germany and Europe. ASD & CO GmbH, Berlin.",
 
     "a11y.skip": "Skip to content",
     "a11y.nav": "Main navigation",
@@ -433,12 +433,12 @@ window.I18N = {
 
     "about.eyebrow": "Who we are",
     "about.role": "Your representative in Europe for food processing equipment and technology",
-    "about.text1": "ASD & CO helps companies in Central Asia find and acquire food processing equipment and spare parts on the European market.",
+    "about.text1": "ASD & CO GmbH helps companies in Central Asia find and acquire food processing equipment and spare parts on the European market.",
     "about.text2": "We accompany the project from the first enquiry through to delivery coordination — and remain our clients' partner long after the deal is closed.",
     "about.alt": "High-rise buildings at Potsdamer Platz in Berlin",
 
     "why.eyebrow": "Our approach",
-    "why.title": "Why companies trust ASD & CO",
+    "why.title": "Why companies trust ASD & CO GmbH",
     "why.c1t": "Access to the European market",
     "why.c1d": "We search for equipment across all of Europe.",
     "why.c2t": "Several options",
@@ -542,7 +542,7 @@ window.I18N = {
     "footer.rights": "All rights reserved.",
 
     "legal.backHome": "Back to home page",
-    "imp.metaTitle": "Imprint — ASD & CO",
+    "imp.metaTitle": "Imprint — ASD & CO GmbH",
     "imp.title": "Imprint",
     "imp.lead": "Information pursuant to § 5 of the German Digital Services Act (DDG).",
     "imp.h1": "Service provider",
@@ -566,7 +566,7 @@ window.I18N = {
     "imp.h11": "Copyright",
     "imp.h11t": "Content and works created by the site operators on these pages are subject to German copyright law. Third-party contributions are marked as such.",
 
-    "prv.metaTitle": "Privacy Policy — ASD & CO",
+    "prv.metaTitle": "Privacy Policy — ASD & CO GmbH",
     "prv.title": "Privacy Policy",
     "prv.lead": "Information on the processing of personal data pursuant to Art. 13 GDPR.",
     "prv.hosting": "The hosting provider is IONOS SE, Elgendorfer Straße 57, 56410 Montabaur, Germany. A data processing agreement pursuant to Art. 28 GDPR is in place with IONOS.",
