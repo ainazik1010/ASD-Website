@@ -1,27 +1,27 @@
 # ASD & CO — Website
 
-Mehrsprachige Firmenwebsite (Deutsch/Russisch/Englisch) für ein Unternehmen aus der
-Lebensmitteltechnik. Statisches HTML/CSS/JavaScript ohne Framework und ohne Build-Schritt.
+Multilingual company website (German/Russian/English) for a company in the food technology
+industry. Static HTML/CSS/JavaScript, no framework and no build step.
 
-## Funktionen
+## Features
 
-- Startseite mit Vorstellung des Unternehmens und der Branche
-- Sprachumschaltung DE/RU/EN über ein eigenes i18n-System (`assets/js/i18n.js`)
-- Kontaktformular, das Anfragen über ein Google Apps Script in ein Google Sheet schreibt
-- Impressum und Datenschutzerklärung nach deutschem Recht
+- Home page presenting the company and its industry
+- Language switch DE/RU/EN via a custom i18n system (`assets/js/i18n.js`)
+- Contact form that submits inquiries to a Google Sheet via a Google Apps Script
+- Imprint and privacy policy compliant with German law
 
-## Technik
+## Tech
 
 ```
-index.html          Startseite
-impressum.html       Impressum
-datenschutz.html     Datenschutzerklärung
-assets/css/style.css Design-System
-assets/js/i18n.js    Übersetzungen DE / RU / EN
-assets/js/main.js    Sprachumschaltung, Navigation, Formular
+index.html            Home page
+impressum.html          Imprint
+datenschutz.html        Privacy policy
+assets/css/style.css    Design system
+assets/js/i18n.js       Translations DE / RU / EN
+assets/js/main.js       Language switching, navigation, form
 ```
 
-Lokal ansehen:
+Local preview:
 
 ```bash
 python3 -m http.server 8080
